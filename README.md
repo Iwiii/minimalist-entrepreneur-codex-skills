@@ -13,7 +13,7 @@ This repository keeps the original 10 business-advisor skills and packages them 
 After the npm package is published, install with:
 
 ```bash
-npx minimalist-entrepreneur-codex-skills add
+npx one-person-company-codex-skills add
 ```
 
 Restart Codex after installing new skills.
@@ -22,13 +22,13 @@ Useful variants:
 
 ```bash
 # Check what the installer can see
-npx minimalist-entrepreneur-codex-skills doctor
+npx one-person-company-codex-skills doctor
 
 # Install only a few skills
-npx minimalist-entrepreneur-codex-skills add pricing mvp validate-idea
+npx one-person-company-codex-skills add pricing mvp validate-idea
 
 # Replace already-installed copies
-npx minimalist-entrepreneur-codex-skills add --force
+npx one-person-company-codex-skills add --force
 ```
 
 The `npx` installer copies the bundled `skills/*` folders into `$CODEX_HOME/skills`, or `~/.codex/skills` when `CODEX_HOME` is unset.
@@ -36,18 +36,18 @@ The `npx` installer copies the bundled `skills/*` folders into `$CODEX_HOME/skil
 Before the first npm publish, the same CLI can be tested directly from GitHub:
 
 ```bash
-npx github:Iwiii/minimalist-entrepreneur-codex-skills add
+npx --package github:Iwiii/minimalist-entrepreneur-codex-skills one-person-company-codex-skills add
 ```
 
 The shorter alias also works after installation:
 
 ```bash
-npx --package minimalist-entrepreneur-codex-skills me-codex-skills --help
+npx --package one-person-company-codex-skills opc-codex-skills --help
 ```
 
 ## Publish to npm
 
-The package name `minimalist-entrepreneur-codex-skills` is configured in `package.json`.
+The package name `one-person-company-codex-skills` is configured in `package.json`.
 
 One-time setup:
 

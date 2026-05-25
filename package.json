@@ -1,7 +1,7 @@
 {
-  "name": "minimalist-entrepreneur-codex-skills",
+  "name": "one-person-company-codex-skills",
   "version": "1.0.0",
-  "description": "Codex-native Minimalist Entrepreneur skills with an npx installer.",
+  "description": "Codex-native One Person Company skills with an npx installer.",
   "license": "MIT",
   "engines": {
     "node": ">=18"
@@ -11,8 +11,8 @@
     "registry": "https://registry.npmjs.org/"
   },
   "bin": {
-    "minimalist-entrepreneur-codex-skills": "./bin/minimalist-entrepreneur-codex-skills.js",
-    "me-codex-skills": "./bin/minimalist-entrepreneur-codex-skills.js"
+    "one-person-company-codex-skills": "./bin/one-person-company-codex-skills.js",
+    "opc-codex-skills": "./bin/one-person-company-codex-skills.js"
   },
   "files": [
     "bin/",
@@ -22,8 +22,8 @@
     "NOTICE"
   ],
   "scripts": {
-    "doctor": "node ./bin/minimalist-entrepreneur-codex-skills.js doctor",
-    "test": "node ./bin/minimalist-entrepreneur-codex-skills.js add --dry-run --dest /tmp/minimalist-entrepreneur-codex-skills-test"
+    "doctor": "node ./bin/one-person-company-codex-skills.js doctor",
+    "test": "node ./bin/one-person-company-codex-skills.js add --dry-run --dest /tmp/one-person-company-codex-skills-test"
   },
   "repository": {
     "type": "git",
@@ -32,6 +32,6 @@
   "keywords": [
     "codex",
     "skills",
-    "minimalist-entrepreneur"
+    "one-person-company"
   ]
 }

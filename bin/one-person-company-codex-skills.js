@@ -9,12 +9,12 @@ const SOURCE_SKILLS_DIR = path.join(PACKAGE_ROOT, "skills");
 const DEFAULT_COMMAND = "add";
 
 function usage() {
-  return `Minimalist Entrepreneur Codex Skills
+  return `One Person Company Codex Skills
 
 Usage:
-  minimalist-entrepreneur-codex-skills add [skill...] [--dest <dir>] [--force] [--dry-run] [--json]
-  minimalist-entrepreneur-codex-skills list [--json]
-  minimalist-entrepreneur-codex-skills doctor [--json]
+  one-person-company-codex-skills add [skill...] [--dest <dir>] [--force] [--dry-run] [--json]
+  one-person-company-codex-skills list [--json]
+  one-person-company-codex-skills doctor [--json]
 
 Commands:
   add       Install all bundled skills, or the named subset.
@@ -30,9 +30,9 @@ Options:
   -h, --help     Show this help.
 
 Examples:
-  npx minimalist-entrepreneur-codex-skills add
-  npx minimalist-entrepreneur-codex-skills add pricing mvp
-  npx minimalist-entrepreneur-codex-skills doctor --json
+  npx one-person-company-codex-skills add
+  npx one-person-company-codex-skills add pricing mvp
+  npx one-person-company-codex-skills doctor --json
 `;
 }
 
