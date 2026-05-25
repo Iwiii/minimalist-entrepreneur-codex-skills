@@ -1,0 +1,4 @@
+interface:
+  display_name: "Processize"
+  short_description: "Processize ideas before coding"
+  default_prompt: "Use $processize to turn this product idea into a manual process I can deliver today."

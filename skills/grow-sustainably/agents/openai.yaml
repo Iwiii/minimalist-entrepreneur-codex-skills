@@ -1,0 +1,4 @@
+interface:
+  display_name: "Grow Sustainably"
+  short_description: "Grow profitably and sustainably"
+  default_prompt: "Use $grow-sustainably to evaluate a hiring, spending, fundraising, or scaling decision."

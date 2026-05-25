@@ -1,0 +1,4 @@
+interface:
+  display_name: "MVP"
+  short_description: "Scope a weekend-sized MVP"
+  default_prompt: "Use $mvp to reduce my product idea to the simplest version I can ship this weekend."

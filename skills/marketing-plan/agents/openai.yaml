@@ -1,0 +1,4 @@
+interface:
+  display_name: "Marketing Plan"
+  short_description: "Build an organic marketing plan"
+  default_prompt: "Use $marketing-plan to build an audience and content plan for my product."

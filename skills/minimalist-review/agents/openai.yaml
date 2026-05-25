@@ -1,0 +1,4 @@
+interface:
+  display_name: "Minimalist Review"
+  short_description: "Review business decisions simply"
+  default_prompt: "Use $minimalist-review to gut-check this business decision through a minimalist entrepreneur lens."

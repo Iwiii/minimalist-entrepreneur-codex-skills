@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pricing"
+  short_description: "Set profitable initial pricing"
+  default_prompt: "Use $pricing to choose an initial price and customer target for my product."

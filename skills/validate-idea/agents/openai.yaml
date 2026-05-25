@@ -1,0 +1,4 @@
+interface:
+  display_name: "Validate Idea"
+  short_description: "Validate ideas before building"
+  default_prompt: "Use $validate-idea to test whether this business idea is worth pursuing before I build."
