@@ -1,0 +1,36 @@
+{
+  "name": "minimalist-entrepreneur-codex-skills",
+  "version": "1.0.0",
+  "description": "Codex-native Minimalist Entrepreneur skills with an npx installer.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": {
+    "minimalist-entrepreneur-codex-skills": "./bin/minimalist-entrepreneur-codex-skills.js",
+    "me-codex-skills": "./bin/minimalist-entrepreneur-codex-skills.js"
+  },
+  "files": [
+    "bin/",
+    "skills/",
+    "README.md",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "scripts": {
+    "doctor": "node ./bin/minimalist-entrepreneur-codex-skills.js doctor",
+    "test": "node ./bin/minimalist-entrepreneur-codex-skills.js add --dry-run --dest /tmp/minimalist-entrepreneur-codex-skills-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Iwiii/minimalist-entrepreneur-codex-skills.git"
+  },
+  "keywords": [
+    "codex",
+    "skills",
+    "minimalist-entrepreneur"
+  ]
+}

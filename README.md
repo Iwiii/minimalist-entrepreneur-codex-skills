@@ -10,6 +10,62 @@ This repository keeps the original 10 business-advisor skills and packages them 
 
 ## Install
 
+After the npm package is published, install with:
+
+```bash
+npx minimalist-entrepreneur-codex-skills add
+```
+
+Restart Codex after installing new skills.
+
+Useful variants:
+
+```bash
+# Check what the installer can see
+npx minimalist-entrepreneur-codex-skills doctor
+
+# Install only a few skills
+npx minimalist-entrepreneur-codex-skills add pricing mvp validate-idea
+
+# Replace already-installed copies
+npx minimalist-entrepreneur-codex-skills add --force
+```
+
+The `npx` installer copies the bundled `skills/*` folders into `$CODEX_HOME/skills`, or `~/.codex/skills` when `CODEX_HOME` is unset.
+
+Before the first npm publish, the same CLI can be tested directly from GitHub:
+
+```bash
+npx github:Iwiii/minimalist-entrepreneur-codex-skills add
+```
+
+The shorter alias also works after installation:
+
+```bash
+npx --package minimalist-entrepreneur-codex-skills me-codex-skills --help
+```
+
+## Publish to npm
+
+The package name `minimalist-entrepreneur-codex-skills` is configured in `package.json`.
+
+One-time setup:
+
+```bash
+npm login
+npm whoami
+```
+
+Publish:
+
+```bash
+npm publish
+```
+
+npm currently requires either 2FA on the publishing account or a granular access token with bypass 2FA enabled. If npm prompts for browser login, security key, or OTP during `npm login` / `npm publish`, complete that prompt in your browser or terminal.
+
+## Manual Install
+
 Ask Codex to install from this GitHub repo:
 
 ```text
