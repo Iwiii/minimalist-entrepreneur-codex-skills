@@ -52,14 +52,14 @@ The package name `minimalist-entrepreneur-codex-skills` is configured in `packag
 One-time setup:
 
 ```bash
-npm login
-npm whoami
+npm login --registry=https://registry.npmjs.org/
+npm whoami --registry=https://registry.npmjs.org/
 ```
 
 Publish:
 
 ```bash
-npm publish
+npm publish --registry=https://registry.npmjs.org/
 ```
 
 npm currently requires either 2FA on the publishing account or a granular access token with bypass 2FA enabled. If npm prompts for browser login, security key, or OTP during `npm login` / `npm publish`, complete that prompt in your browser or terminal.
