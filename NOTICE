@@ -1,0 +1,17 @@
+This repository is a Codex-native conversion of:
+
+  https://github.com/slavingia/skills
+
+Original skill content is attributed to Sahil Lavingia / slavingia/skills.
+The upstream .claude-plugin/plugin.json metadata in the source snapshot used
+for this conversion declares:
+
+  author: Sahil Lavingia
+  license: MIT
+
+The upstream GitHub repository did not include a standalone LICENSE file in
+the source snapshot used for this conversion. This repository includes the MIT
+license text and keeps this attribution notice with the adapted skill content.
+
+Conversion changes include Codex skill layout, agents/openai.yaml metadata,
+README installation instructions, and minor prompt wording adjustments.

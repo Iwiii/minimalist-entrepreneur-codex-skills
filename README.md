@@ -32,15 +32,15 @@ Or run the installer helper directly:
 python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
   --repo Iwiii/minimalist-entrepreneur-codex-skills \
   --path skills/find-community \
-  --path skills/validate-idea \
-  --path skills/mvp \
-  --path skills/processize \
-  --path skills/first-customers \
-  --path skills/pricing \
-  --path skills/marketing-plan \
-  --path skills/grow-sustainably \
-  --path skills/company-values \
-  --path skills/minimalist-review
+    skills/validate-idea \
+    skills/mvp \
+    skills/processize \
+    skills/first-customers \
+    skills/pricing \
+    skills/marketing-plan \
+    skills/grow-sustainably \
+    skills/company-values \
+    skills/minimalist-review
 ```
 
 Restart Codex after installing new skills.
@@ -63,3 +63,5 @@ Restart Codex after installing new skills.
 ## Source
 
 Converted from [`slavingia/skills`](https://github.com/slavingia/skills). The source plugin metadata declares the project as MIT licensed.
+
+See [`LICENSE`](LICENSE) and [`NOTICE`](NOTICE) for license text and upstream attribution.
